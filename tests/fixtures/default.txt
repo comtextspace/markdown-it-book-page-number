@@ -1,15 +1,15 @@
 Simple text
 .
-test test
+test [] [#] test
 .
-<p>test test</p>
+<p>test [] [#] test</p>
 .
 
 One page number
 .
 test [# 23] test
 .
-<p>test <a href="#pn23" id="pn23" class="book-page-number" data-pn="23">[23]</a> test</p>
+<p>test <a href="#pn_23" id="pn_23" class="book-page-number" data-pn="23">[23]</a> test</p>
 .
 
 Page number with suffix
@@ -18,12 +18,19 @@ Page number with suffix
 test [#23 8] test
 .
 <h1>header</h1>
-<p>test <a href="#pn23" id="pn23" class="book-page-number" data-pn="23">[23]</a> test</p>
+<p>test <a href="#pn_23" id="pn_23" class="book-page-number" data-pn="23">[23]</a> test</p>
 .
 
 Page number with symbols
 .
 test [#dd] test
 .
-<p>test <a href="#pndd" id="pndd" class="book-page-number" data-pn="dd">[dd]</a> test</p>
+<p>test <a href="#pn_dd" id="pn_dd" class="book-page-number" data-pn="dd">[dd]</a> test</p>
+.
+
+One page number
+.
+test [^26] [# ном3] test
+.
+<p>test [^26] <a href="#pn_ном3" id="pn_ном3" class="book-page-number" data-pn="ном3">[ном3]</a> test</p>
 .
