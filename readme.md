@@ -1,5 +1,19 @@
 # Book page number plugin for markdown-it
 
+This plagen parses markdown and replaces page number in special format
+
+from
+
+```
+ [# 33]
+```
+
+to
+
+```
+
+```
+
 ## Installation
 
 With [Yarn](https://yarnpkg.com/):

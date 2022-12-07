@@ -24,7 +24,9 @@
     "index.js"
   ],
   "devDependencies": {
-    "markdown-it": "^13.0.1"
+    "markdown-it": "^13.0.1",
+    "markdown-it-testgen": "^0.1.6",
+    "tape": "^5.6.1"
   },
   "author": ""
 }
