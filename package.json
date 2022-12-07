@@ -1,5 +1,5 @@
 {
-  "name": "markdown-it-book-page-number",
+  "name": "@comtext/markdown-it-book-page-number",
   "version": "0.1.0",
   "description": "Book page number plugin for markdown-it markdown parser.",
   "keywords": [
@@ -7,13 +7,13 @@
     "markdown-it",
     "markdown"
   ],
-  "homepage": "https://github.com/ZaryaXYZ/markdown-it-book-page-number",
+  "homepage": "https://github.com/comtextspace/markdown-it-book-page-number",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ZaryaXYZ/markdown-it-book-page-number.git"
+    "url": "git://github.com/comtextspace/markdown-it-book-page-number.git"
   },
   "bugs": {
-    "url": "https://github.com/ZaryaXYZ/markdown-it-book-page-number/issues"
+    "url": "https://github.com/comtextspace/markdown-it-book-page-number/issues"
   },
   "license": "MIT",
   "main": "index.js",
@@ -24,6 +24,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "markdown-it": "^6.0.0"
-  }
+    "markdown-it": "^13.0.1"
+  },
+  "author": ""
 }
