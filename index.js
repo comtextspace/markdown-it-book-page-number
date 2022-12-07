@@ -4,7 +4,7 @@ const link_class = "book-page-number";
 
 function processInline(token, state) {
   function str_to_token(str) {
-    let m = str.match(/\[\#\s*(\d+)[^\]]*\]/);
+    let m = str.match(/\[\#\s*(\w+)[^\]]*\]/);
     if (m === null) {
       let newToken = new state.Token("text", "", 0);
       newToken.content = str;
@@ -20,7 +20,7 @@ function processInline(token, state) {
     let child = token.children[i];
 
     if (child.type === "text" && child.content.indexOf("[#") !== -1) {
-      let items = child.content.split(/(\[\#\s*\d+[^\]]*\])/);
+      let items = child.content.split(/(\[\#\s*\w+[^\]]*\])/);
       let tokens = items.map(str_to_token);
       token.children.splice(i, 1, ...tokens);
       i--;
