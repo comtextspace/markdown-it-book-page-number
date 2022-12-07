@@ -12,9 +12,9 @@ test [# 23] test
 <p>test <a href="#pn23" id="pn23" class="book-page-number" data-pn="23">[23]</a> test</p>
 .
 
-With header
+Page number with suffix
 .
-# Page number with suffix
+# header
 test [#23 8] test
 .
 <h1>header</h1>

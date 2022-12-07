@@ -20,9 +20,7 @@ function processInline(token, state) {
     let child = token.children[i];
 
     if (child.type === "text" && child.content.indexOf("[#") !== -1) {
-      console.log(child.content);
       let items = child.content.split(/(\[\#\s*\d+[^\]]*\])/);
-      console.log(items);
       let tokens = items.map(str_to_token);
       token.children.splice(i, 1, ...tokens);
       i--;
