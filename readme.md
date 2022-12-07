@@ -29,3 +29,12 @@ npm i @comtext/markdown-it-book-page-number
 ```
 
 ## Using
+
+```js
+const md = require("markdown-it")();
+const mk = require("@comtext/markdown-it-book-page-number");
+
+md.use(mk);
+
+var result = md.render("text [# 23] text");
+```
