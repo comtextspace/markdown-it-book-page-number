@@ -18,7 +18,7 @@ Page number with suffix
 test [#23 8] test
 .
 <h1>header</h1>
-<p>test <a href="#pn_23" id="pn_23" class="book-page-number" data-pn="23">[23]</a> test</p>
+<p>test [#23 8] test</p>
 .
 
 Page number with symbols
@@ -33,4 +33,11 @@ One page number
 test [^26] [# ном3] test
 .
 <p>test [^26] <a href="#pn_ном3" id="pn_ном3" class="book-page-number" data-pn="ном3">[ном3]</a> test</p>
+.
+
+Two number in one paragraph
+.
+test1 [#13] test2 [#14] test3
+.
+<p>test1 <a href="#pn_13" id="pn_13" class="book-page-number" data-pn="13">[13]</a> test2 <a href="#pn_14" id="pn_14" class="book-page-number" data-pn="14">[14]</a> test3</p>
 .
