@@ -1,6 +1,6 @@
 {
   "name": "@comtext/markdown-it-book-page-number",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Book page number plugin for markdown-it markdown parser.",
   "keywords": [
     "markdown-it-plugin",
